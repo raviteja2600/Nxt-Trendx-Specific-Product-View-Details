@@ -1,0 +1,133 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.product-item-details-container {
+  display: flex;
+  flex-direction: row;
+}
+.product-image {
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 350px;
+}
+.title {
+  margin: 0px;
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #475569;
+}
+.price {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.rating-review-container {
+  display: flex;
+  align-items: center;
+}
+.review {
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: #475569;
+  margin-left: 10px;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  color: #616e7c;
+  line-height: 2;
+}
+.availability {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #616e7c;
+}
+.sub-heading {
+  font-weight: 600;
+  color: #1e293b;
+}
+.brand {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #616e7c;
+}
+.horizontal-line {
+  border: 1px solid #cbced2;
+  width: 100%;
+}
+.buttons-container {
+  display: flex;
+  align-items: center;
+}
+.button {
+  border: none;
+  background-color: transparent;
+  margin-right: 15px;
+}
+.count-value {
+  margin-right: 15px;
+}
+.add-to-cart-button {
+  background-color: #3b82fc;
+  padding: 5px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+.add-to-cart {
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: #ffffff;
+  margin: 0px;
+}
+.similar-products-container {
+  margin-top: 50px;
+}
+.similar-products {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #475569;
+}
+.lists-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.error-view {
+  width: 400px;
+}
+.failure-view-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #1e293b;
+}
+.continue-shopping-button {
+  background-color: #3b82fc;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
